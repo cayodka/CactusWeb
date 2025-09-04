@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="" alt="" />
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <section id="corpoContainer">
+      <div id="pesquisa">
+        <input type="text" id="procurar" placeholder="Search..." />
+
+        <div id="perfil">
+          <p id="username">Username</p>
+          <img src="/img/user.png" alt="User Profile" id="userIcon" />
+        </div>
+
+        <div id="alterarDados">
+          <input type="file" name="alterarFoto" id="alterarFoto"/>
+          <input type="text" maxlength="8" name="alterarNome" id="alterarNome" placeholder="Alterar Nome"/>
+          <button id="salvarDados">Salvar</button>
+        </div>
+
+      </div>
+      <div id="conteudo"></div>
+      <textarea id="texto" maxlength="100"placeholder="Digite aqui sua duvida..."></textarea>
+    </section>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
